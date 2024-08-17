@@ -8,10 +8,10 @@
 
 This project develops a machine learning-based classifier to effectively distinguish between intrusive (malicious) and non-intrusive (benign) network traffic.Advanced preprocessing and SMOTE are applied to improve detection capabilities, resulting in a highly effective system for identifying attacks
 
-[*Read more →*](/projects/Network_intrusion/Network_intrusion.md)
+[*Read more →*](./projects/Network_intrusion/network_intrusion.md)
 
-> *Project presentation :*
-[![](https://img.shields.io/badge/Animated_presentation-grey?logo=Canva)](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+> *Project presentation :* <br>
+> [![](https://img.shields.io/badge/Canva-Animated_presentation-white?logo=Canva)](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 Interactive plots:
 - [2D plot](projects/Network_intrusion/figures/html/tsne_dark_5000.html)
