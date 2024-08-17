@@ -10,7 +10,8 @@ This project develops a machine learning-based classifier to effectively disting
 
 [*Read more →*](/projects/Network_intrusion/Network_intrusion.md)
 
-[**Animated presentation →**](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+> *Project presentation :*
+[![](https://img.shields.io/badge/Animated_presentation-grey?logo=Canva)](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 Interactive plots:
 - [2D plot](projects/Network_intrusion/figures/html/tsne_dark_5000.html)
@@ -20,12 +21,12 @@ Interactive plots:
 
 [![](https://img.shields.io/badge/Github_repository-black?logo=Github)](https://github.com/AhmedOsman00py/Network-Intrusion-Detection)
 
-![](https://img.shields.io/badge/Python-grey?logo=Python)
-![](https://img.shields.io/badge/Scikit_learn-grey?logo=Scikit-learn)
-![](https://img.shields.io/badge/Pandas-grey?logo=Pandas)
-![](https://img.shields.io/badge/Plotly-grey?logo=Plotly)
-![](https://img.shields.io/badge/Imblearn-grey?logo=Imbalanced-learn)
-![](https://img.shields.io/badge/Canva-grey?logo=Canva)
+![](https://img.shields.io/badge/Python-white?logo=Python)
+![](https://img.shields.io/badge/Scikit_learn-white?logo=Scikit-learn)
+![](https://img.shields.io/badge/Pandas-white?logo=Pandas)
+![](https://img.shields.io/badge/Plotly-white?logo=Plotly)
+
+
 
 ---
 
