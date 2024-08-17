@@ -4,14 +4,12 @@
 
 ### Deep Contrastive Learning
 
-<img src="images/project_images/SimCLR.png?raw=true"/>
+<img src="projects/SimCLR/SimCLR.png?raw=true"/>
 This project uses SimCLR, a contrastive learning method, to train a model on the MNIST dataset with minimal labeled data. By leveraging unsupervised techniques, it enhances feature representation and achieves a 7% improvement in accuracy over traditional models.
 
 [Read more →](/projects/SimCLR/SimCLR.md)
 
 [Read report →](/projects/SimCLR/SimCLR_Report.pdf)
-
-<code>Read</code>
 
 <a href="https://github.com/AhmedOsman00py/deep-contrastive-learning">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="20" height="20">
