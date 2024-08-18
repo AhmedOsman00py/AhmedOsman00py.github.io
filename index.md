@@ -14,16 +14,16 @@ This project develops a machine learning-based classifier to effectively disting
 
 | Interactive plots | Links |
 |-------------------|-------|
-| 2D plot           | [2D plot](projects/Network_intrusion/figures/html/tsne_dark_5000.html) |
-| 3D plot           | [3D plot](projects/Network_intrusion/figures/html/tsne_white3D_5000.html) |
+| 2D plot           | [visualization](projects/Network_intrusion/figures/html/tsne_dark_5000.html) |
+| 3D plot           | [visualization](projects/Network_intrusion/figures/html/tsne_white3D_5000.html) |
 
 [![](https://img.shields.io/badge/Github_repository-black?logo=Github)](https://github.com/AhmedOsman00py/Network-Intrusion-Detection)
 
 ![](https://img.shields.io/badge/Python-white?logo=Python)
 ![](https://img.shields.io/badge/Scikit_learn-white?logo=Scikit-learn)
-![](https://img.shields.io/badge/Pandas-white?logo=Pandas)
 ![](https://img.shields.io/badge/DVC-white?logo=DVC)
-![](https://img.shields.io/badge/Plotly-white?logo=Plotly)
+![](https://img.shields.io/badge/Pandas-lightgrey?logo=Pandas)
+![](https://img.shields.io/badge/Plotly-lightgrey?logo=Plotly)
 
 ---
 
@@ -38,6 +38,14 @@ As part of my Master's in Data Science at Université Paris-Saclay, this project
 
 ![Github repo](https://img.shields.io/badge/Github_repository-black?logo=Github) *(French version)*
 
+![](https://img.shields.io/badge/Python-white?logo=Python)
+![](https://img.shields.io/badge/Scikit_learn-white?logo=Scikit-learn)
+![](https://img.shields.io/badge/Pandas-lightgrey?logo=Pandas)
+![](https://img.shields.io/badge/Plotly-lightgrey?logo=Plotly)
+![](https://img.shields.io/badge/Tesseract_OCR-white?logo=Tesseract)
+![](https://img.shields.io/badge/Optuna-white?logo=optuna)
+![](https://img.shields.io/badge/Streamlit-white?logo=Streamlit)
+![](https://img.shields.io/badge/Docker-white?logo=Docker)
 
 ---
 
@@ -56,12 +64,23 @@ This project uses SimCLR, a contrastive learning method, to train a model on the
 ![](https://img.shields.io/badge/PyTorch-white?logo=PyTorch)
 ![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)
 
-
 ---
 
+### Turnover Prediction
 
+<img src="./projects/Turnover/turnover.png?raw=true"/>
 
+This project focuses on predicting employee turnover within a company using survival analysis and classification methods in R. By comparing models like Cox proportional hazards and Survival Random Forests against traditional classification approaches, the goal is to predict an employee’s risk of leaving within a year, enhancing strategic human resource planning.
 
+[*Read more →*](https://ahmedosman00py.github.io/Turnover/)
+
+[![](https://img.shields.io/badge/Read_report-grey?logo=html)](https://ahmedosman00py.github.io/Turnover/)
+[![](https://img.shields.io/badge/Github_repository-black?logo=Github)](https://github.com/AhmedOsman00py/Turnover)
+
+![](https://img.shields.io/badge/R-grey?logo=R)
+![](https://img.shields.io/badge/tidyverse-grey?logo=tidyverse)
+![](https://img.shields.io/badge/Quarto-grey?logo=Quarto)
+![](https://img.shields.io/badge/Survival_Analysis-grey?logo=Survival-Analysis)
 
 ## Data Visualization projects
 Embed websites or pdf here.

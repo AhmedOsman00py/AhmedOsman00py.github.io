@@ -1,11 +1,25 @@
 title: Ahmed OSMAN # your name (or website title) here
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "/images/Profile_Ahmed.jpeg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br> *Data Scientist | AI Engineer*
+  <br> <b>AI Engineer</b> at <b>Nuiva</b>
+  <it>Based in France</it> (EU citizen)
   <br><br>
   As a passionate Data Scientist, I combine advanced analytical skills with programming and modeling expertise to solve complex problems and transform data into informed decisions. 
   <br><br>
-  <a href="https://www.linkedin.com/in/ahmedosman00/">View My LinkedIn Profile</a> 
+  I am currently working as an AI Engineer at Nuiva, where I am responsible for developing and deploying machine learning models to improve the performance of the company's products.
+  <br><br>
+  <it>Contact me</it>
+  <br>
+  <a href="https://www.linkedin.com/in/ahmedosman00">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="25" height="25" />
+  </a>
+  <a href="https://github.com/AhmedOsman00py/">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="25" height="25" />
+  </a>
+  <a href="mailto:ahmed.g3.2911@gmail.com">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email Logo" width="25" height="25" />
+  </a>
+
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
