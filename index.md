@@ -27,7 +27,6 @@ This project develops a machine learning-based classifier to effectively disting
 
 ---
 
-
 ### Automatic Detection of Legal Query Series - State Council of France
 
 <img src="./projects/Conseil_d_etat/CE_logo.png?raw=true"/>
