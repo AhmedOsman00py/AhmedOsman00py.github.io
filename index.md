@@ -5,6 +5,7 @@
 ### Network Intrusion Detection
 
 <img src="projects/Network_intrusion/figures/screenshots/tsne_2D_dark_5000.png?raw=true"/>
+<img src="projects/Network_intrusion/GIF-network_intrusion.gif">
 
 This project develops a machine learning-based classifier to effectively distinguish between intrusive (malicious) and non-intrusive (benign) network traffic. Advanced preprocessing and SMOTE are applied to improve detection capabilities, resulting in a highly effective system for identifying attacks.
 
@@ -80,25 +81,5 @@ This project focuses on predicting employee turnover within a company using surv
 ![](https://img.shields.io/badge/tidyverse-lightgrey?logo=tidyverse)
 ![](https://img.shields.io/badge/Quarto-lightgrey?logo=Quarto)
 ![](https://img.shields.io/badge/Survival_Analysis-lightgrey?logo=Survival-Analysis)
-
-## Data Visualization projects
-Embed websites or pdf here.
-
-[Network Intrusion Detection](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
