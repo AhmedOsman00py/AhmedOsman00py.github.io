@@ -1,6 +1,6 @@
 # Network Intrusion Detection System
 
-This repository contains a machine learning project focused on developing a classifier to accurately differentiate between intrusive (malicious) and non-intrusive (benign) network traffic.
+This machine learning project focuses on developing a classifier to accurately differentiate between intrusive (malicious) and non-intrusive (benign) network traffic.
 
 ## Project Overview
 
