@@ -1,7 +1,7 @@
 title: Ahmed OSMAN # your name (or website title) here
-logo: "/images/Profile_Ahmed.jpeg?raw=true" # your photo (or logo) here
+logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br> <b>AI Engineer</b> at <b>Nuiva</b>
+  <br> <b>AI Engineer</b> at <b>Nuiva</b><br>
   <it>Based in France</it> (EU citizen)
   <br><br>
   As a passionate Data Scientist, I combine advanced analytical skills with programming and modeling expertise to solve complex problems and transform data into informed decisions. 

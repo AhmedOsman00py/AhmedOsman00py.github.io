@@ -77,10 +77,10 @@ This project focuses on predicting employee turnover within a company using surv
 [![](https://img.shields.io/badge/Read_report-grey?logo=html)](https://ahmedosman00py.github.io/Turnover/)
 [![](https://img.shields.io/badge/Github_repository-black?logo=Github)](https://github.com/AhmedOsman00py/Turnover)
 
-![](https://img.shields.io/badge/R-grey?logo=R)
-![](https://img.shields.io/badge/tidyverse-grey?logo=tidyverse)
-![](https://img.shields.io/badge/Quarto-grey?logo=Quarto)
-![](https://img.shields.io/badge/Survival_Analysis-grey?logo=Survival-Analysis)
+![](https://img.shields.io/badge/R-lightgrey?logo=R)
+![](https://img.shields.io/badge/tidyverse-lightgrey?logo=tidyverse)
+![](https://img.shields.io/badge/Quarto-lightgrey?logo=Quarto)
+![](https://img.shields.io/badge/Survival_Analysis-lightgrey?logo=Survival-Analysis)
 
 ## Data Visualization projects
 Embed websites or pdf here.
