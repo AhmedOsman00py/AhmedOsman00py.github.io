@@ -4,7 +4,7 @@
 
 ### Network Intrusion Detection
 
-<img src="projects/Network_intrusion/figures/screenshots/tsne_2D_dark_5000.png?raw=true"/>
+<!-- <img src="projects/Network_intrusion/figures/screenshots/tsne_2D_dark_5000.png?raw=true"/> -->
 <img src="projects/Network_intrusion/GIF-network_intrusion.gif">
 
 This project develops a machine learning-based classifier to effectively distinguish between intrusive (malicious) and non-intrusive (benign) network traffic. Advanced preprocessing and SMOTE are applied to improve detection capabilities, resulting in a highly effective system for identifying attacks.
