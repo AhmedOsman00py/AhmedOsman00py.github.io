@@ -23,6 +23,7 @@ This project develops a machine learning-based classifier to effectively disting
 ![](https://img.shields.io/badge/Python-white?logo=Python)
 ![](https://img.shields.io/badge/Scikit_learn-white?logo=Scikit-learn)
 ![](https://img.shields.io/badge/DVC-white?logo=DVC)
+![](https://img.shields.io/badge/GCP-white?logo=Google-Cloud)
 ![](https://img.shields.io/badge/Pandas-lightgrey?logo=Pandas)
 ![](https://img.shields.io/badge/Plotly-lightgrey?logo=Plotly)
 
