@@ -81,5 +81,3 @@ This project focuses on predicting employee turnover within a company using surv
 ![](https://img.shields.io/badge/tidyverse-lightgrey?logo=tidyverse)
 ![](https://img.shields.io/badge/Quarto-lightgrey?logo=Quarto)
 ![](https://img.shields.io/badge/Survival_Analysis-lightgrey?logo=Survival-Analysis)
-
----
