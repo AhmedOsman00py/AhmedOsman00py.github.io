@@ -5,9 +5,7 @@
     <img src="./projects/Nuiva/nuiva-logo.png" width="85%">
 </a>
 
-<a href="./projects/Nuiva/ai_agent.md">
-    <h4>AI-Agent — Generating unit test for springboot server (Nuiva)</h4>
-</a>
+#### [AI-Agent — Generating unit test for springboot server (Nuiva)](./projects/Nuiva/ai_agent.md)
 
 Developed an AI-powered agent to automatically generate, execute, and refine unit tests in Java for Spring Boot servers, specifically for TMForum's OpenAPIs.   
 [*Read more →*](./projects/Nuiva/ai_agent.md)
@@ -18,13 +16,9 @@ Developed an AI-powered agent to automatically generate, execute, and refine uni
 ![](https://img.shields.io/badge/OpenAI-lightgrey?logo=OpenAI)
 
 ---
-<a href="./projects/Nuiva/predictive_maintenance.md">
-    <h4>AI predictive maintenance (Nuiva)</h4>
-</a>
+#### [AI predictive maintenance (Nuiva)](./projects/Nuiva/predictive_maintenance.md)
 This project integrates two key components to enhance fault management systems:
-
 - Relevant Alarm Detection: A classification model that identifies alarms as either relevant (requiring investigation) or irrelevant (e.g., transient alarms).  
-
 - Predictive Maintenance: A forecasting system that predicts future alarm occurrences over the next 14 days, along with their respective alarm types.   
 
 [*Read more →*](./projects/Nuiva/predictive_maintenance.md)
