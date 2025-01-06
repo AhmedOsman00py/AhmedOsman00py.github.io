@@ -2,7 +2,7 @@
 
 ### Nuiva
 <a href="./projects/Nuiva/nuiva.md">
-    <img src="./projects/Nuiva/nuiva-logo.png" width=90%>
+    <img src="./projects/Nuiva/nuiva-logo.png">
 </a>
 
 #### AI-Agent — Generating unit test for springboot server

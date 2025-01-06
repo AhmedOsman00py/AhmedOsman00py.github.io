@@ -123,8 +123,7 @@ We trained a `CatBoostClassifier` on historical data to predict whether an alarm
   <img src='images/system_benefits.png' style="width: 85%">
 </div>
 
-
-
+<br>
 
 > ### Data Confidentiality and Security
 > Given the sensitive nature of data, this project takes data security very seriously. The repository does not include any confidential information, with all sensitive data omitted or anonymized. The focus is on showcasing the methodologies and workflows rather than the specific data itself, ensuring compliance with data protection regulations.
