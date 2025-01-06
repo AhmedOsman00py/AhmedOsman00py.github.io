@@ -1,7 +1,9 @@
 
 ## AI-Powered Unit Test Generation for Spring Boot APIs
 
-<img src="./images/agent.png">
+<a href="./images/AI-agent.png">
+    <img src="./images/agent.png">
+</a>
 
 The project leveraged **best software engineering practices** by implementing a modular and maintainable codebase, ensuring scalability and reusability across different workflows.
 
