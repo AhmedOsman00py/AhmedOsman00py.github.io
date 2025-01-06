@@ -2,7 +2,9 @@
 
 Designed, Developed and Deployed a predictive system that forecasts the number of alarm occurrences for each alarm category across Network Elements (Routers, Cell Towers, etc...) over the next 14 days. The system aims to enable **predictive maintenance** by identifying potential **issues before they occur**, integrating with existing operational systems to automate ticket creation, and providing actionable insights to improve network reliability and reduce downtime.
 
-<img src='images/predictive_maintenance-2.svg' style='width: 115%'>
+<a href='images/predictive_maintenance-2.svg'>
+    <img src='images/predictive_maintenance-2.svg' style='width: 115%'>
+</a>
 
 **Outcome and Business Value**:
 - **Proactive Maintenance**:
@@ -92,13 +94,17 @@ As we got also a big variance in the target columns, we might have a big number 
 
 The model was evaluated Network Elements (NE) by forecasting alarm occurrences for the next 14 days and comparing predictions to actual values. 
 
-<img src='images/NE1.png'>
+<a href="images/NE1.png">
+    <img src='images/NE1.png'>
+</a>
 
 While it accurately identified the days alarms would occur, the exact counts sometimes varied. For categories like Communication Failures, predictions were perfect, but for Power and Voltage Issues, the model underestimated by two alarms. Similarly, for Radio Frequency Issues, it correctly forecasted alarm days but overestimated by one alarm. Performance was measured using Mean Absolute Error (MAE), where lower values indicate better accuracy.
 
 Here is another example, for a different Network Element (NE) :
 
-<img src='images/NE2.png'>
+<a href='images/NE2.png'>
+    <img src='images/NE2.png'>
+</a>
 
 For this NE, the model again demonstrates its capability to predict alarm occurrences for the next 14 days. In this case, the Power and Voltage Issues category shows alternating predictions that align with the general pattern, but the model underestimates two occurrences on specific days. For Radio Frequency Issues, the model accurately predicts the occurrence days but slightly overestimates the magnitude of one alarm. Meanwhile, categories such as License Issues, Communication Failures, and others maintain perfect predictions with zero deviation.
 
