@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Network Intrusion Detection System"
-lang: en
+lang: fr
 
 permalink_fr: /projects/Network_intrusion/network_intrusion.fr.html
 permalink_en: /projects/Network_intrusion/network_intrusion.html

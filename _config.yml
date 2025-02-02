@@ -1,27 +1,74 @@
 title: Ahmed OSMAN # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  <br> <span style="font-family: monospace;"><b>AI Engineer</b> at <b>Nuiva</b></span><br>
-  <it>Based in France</it> (EU citizen)
-  <br><br>
-  As a passionate Data Scientist, I combine advanced analytical skills with programming and modeling expertise to solve complex problems and transform data into informed decisions. 
-  <br><br>
-  I am currently working as an AI Engineer at Nuiva, where I am responsible for developing and deploying machine learning models to improve the performance of the company's products.
-  <br><br>
-  <span style="font-family: monospace;"><it>Contact me</it></span>
-  <br>
-  <a href="https://www.linkedin.com/in/ahmedosman00">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="25" height="25" />
-  </a>
-  <a href="https://github.com/AhmedOsman00py/">
-    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="25" height="25" />
-  </a>
-  <a href="mailto:ahmed.g3.2911@gmail.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email Logo" width="25" height="25" />
-  </a>
 
-  
+description:
+  en: >
+    <br> <span style="font-family: monospace;"><b>AI Engineer</b> at <b>Nuiva</b></span><br>
+    <it>Based in France</it> (EU citizen)
+    <br><br>
+    As a passionate Data Scientist, I combine advanced analytical skills with programming and modeling expertise to solve complex problems and transform data into informed decisions.
+    <br><br>
+    I am currently working as an AI Engineer at Nuiva, where I am responsible for developing and deploying machine learning models to improve the performance of the company's products.
+    <br><br>
+    <span style="font-family: monospace;"><it>Contact me</it></span>
+    <br>
+    <a href="https://www.linkedin.com/in/ahmedosman00">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" width="25" height="25" />
+    </a>
+    <a href="https://github.com/AhmedOsman00py/">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="25" height="25" />
+    </a>
+    <a href="mailto:ahmed.g3.2911@gmail.com">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email Logo" width="25" height="25" />
+    </a>
+
+  fr: >
+    <br> <span style="font-family: monospace;"><b>Ingénieur IA</b> chez <b>Nuiva</b></span><br>
+    <it>Basé en France</it> (citoyen de l'UE)
+    <br><br>
+    En tant que Data Scientist passionné, je combine des compétences analytiques avancées avec une expertise en programmation et en modélisation pour résoudre des problèmes complexes et transformer les données en décisions éclairées.
+    <br><br>
+    Je travaille actuellement comme Ingénieur IA chez Nuiva, où je suis responsable du développement et du déploiement de modèles d'apprentissage automatique pour améliorer la performance des produits de l'entreprise.
+    <br><br>
+    <span style="font-family: monospace;"><it>Contactez-moi</it></span>
+    <br>
+    <a href="https://www.linkedin.com/in/ahmedosman00">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Logo LinkedIn" width="25" height="25" />
+    </a>
+    <a href="https://github.com/AhmedOsman00py/">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Logo GitHub" width="25" height="25" />
+    </a>
+    <a href="mailto:ahmed.g3.2911@gmail.com">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Logo Gmail" width="25" height="25" />
+    </a>
+
+baseurl: "" # Keep empty for GitHub Pages at username.github.io, otherwise set it to "/repo-name"
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
-# google_analytics: UA-000000-0 # your Google Analytics tracking ID here
+  - jekyll-remote-theme
+
+# google_analytics: UA-000000-0 # Add your tracking ID here if needed
+
+# Language settings
+languages: ["en", "fr"]
+default_lang: "en"
+exclude_from_localization: ["assets", "images", "pdf", "favicon.ico"]
+
+# Ensure Jekyll processes important files
+include:
+  - index.md
+  - index.en.md
+  - index.fr.md
+
+# Default settings for layouts
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      layout: "project"

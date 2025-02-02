@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Projects"
+lang: en
+
+permalink: /index.html
+permalink_fr: /index.fr.html
+---
+
 ## Projects
 
 ### Nuiva
@@ -5,10 +14,10 @@
     <img src="./projects/Nuiva/nuiva-logo.png" width="85%">
 </a>
 
-#### [AI-Agent — Generating unit test for springboot server (Nuiva)](./projects/Nuiva/ai_agent.md)
+#### [AI-Agent — Generating unit test for springboot server (Nuiva)]({% link projects/Nuiva/ai_agent.md %})
 
 Developed an AI-powered agent to automatically generate, execute, and refine unit tests in Java for Spring Boot servers, specifically for TMForum's OpenAPIs.   
-[*Read more →*](./projects/Nuiva/ai_agent.md)
+[*Read more →*]({% link projects/Nuiva/ai_agent.md %})
 
 ![](https://img.shields.io/badge/Python-white?logo=Python)
 ![](https://img.shields.io/badge/Docker-white?logo=Docker)
@@ -16,12 +25,12 @@ Developed an AI-powered agent to automatically generate, execute, and refine uni
 ![](https://img.shields.io/badge/OpenAI-lightgrey?logo=OpenAI)
 
 ---
-#### [AI predictive maintenance (Nuiva)](./projects/Nuiva/predictive_maintenance.md)
+#### [AI predictive maintenance (Nuiva)]({% link projects/Nuiva/predictive_maintenance.md %})
 This project integrates two key components to enhance fault management systems:
 - Relevant Alarm Detection: A classification model that identifies alarms as either relevant (requiring investigation) or irrelevant (e.g., transient alarms).  
 - Predictive Maintenance: A forecasting system that predicts future alarm occurrences over the next 14 days, along with their respective alarm types.   
 
-[*Read more →*](./projects/Nuiva/predictive_maintenance.md)
+[*Read more →*]({% link projects/Nuiva/predictive_maintenance.md %})
 
 
 ![](https://img.shields.io/badge/Python-white?logo=Python)

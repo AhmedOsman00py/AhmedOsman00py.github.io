@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Contrastive learning : SimCLR"
+lang: en
+---
 
 [![Python version](https://img.shields.io/badge/Python-3.8.10%2B-blue.svg)]() 
 [![PyTorch version](https://img.shields.io/badge/PyTorch-1.8.0%2B-orange.svg)]()

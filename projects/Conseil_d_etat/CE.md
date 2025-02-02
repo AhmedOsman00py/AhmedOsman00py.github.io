@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Apprenticeship - Automatic Detection of Legal Query Series"
+lang: en
+
+permalink_fr: /projects/Conseil_d_etat/CE.fr.html
+permalink_en: /projects/Conseil_d_etat/CE.html
+---
+
 # Apprenticeship - Automatic Detection of Legal Query Series
 
 The project focuses on automating the classification of legal query series through a combination of data science techniques, developed during my Master's apprenticeship in Data Science at the University of Paris Saclay and the Conseil d'État *(State Council of France)*, an essential process for optimizing data processing within this institution.

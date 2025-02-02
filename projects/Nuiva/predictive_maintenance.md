@@ -1,3 +1,12 @@
+---
+layout: default
+title: "Predictive Maintenance"
+lang: en
+
+permalink_fr: /projects/Nuiva/predictive_maintenance.fr.html
+permalink_en: /projects/Nuiva/predictive_maintenance.html
+---
+
 # Predictive Maintenance
 
 Designed, Developed and Deployed a predictive system that forecasts the number of alarm occurrences for each alarm category across Network Elements (Routers, Cell Towers, etc...) over the next 14 days. The system aims to enable **predictive maintenance** by identifying potential **issues before they occur**, integrating with existing operational systems to automate ticket creation, and providing actionable insights to improve network reliability and reduce downtime.

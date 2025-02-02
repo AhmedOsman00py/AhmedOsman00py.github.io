@@ -1,3 +1,11 @@
+---
+layout: default
+title: "AI-Powered Unit Test Generation"
+lang: en
+
+permalink_fr: /projects/Nuiva/ai_agent.fr.html
+permalink_en: /projects/Nuiva/ai_agent.html
+---
 
 ## AI-Powered Unit Test Generation for Spring Boot APIs
 
