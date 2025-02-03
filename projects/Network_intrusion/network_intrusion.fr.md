@@ -1,101 +1,111 @@
 ---
 layout: default
-title: "Network Intrusion Detection System"
+title: "Système de Détection d'Intrusions Réseau"
 lang: fr
 
 permalink_fr: /projects/Network_intrusion/network_intrusion.fr.html
 permalink_en: /projects/Network_intrusion/network_intrusion.html
 ---
 
-# Network Intrusion Detection System
+# Système de Détection d'Intrusions Réseau
 
-This machine learning project focuses on developing a classifier to accurately differentiate between intrusive (malicious) and non-intrusive (benign) network traffic.
+Ce projet d'apprentissage automatique vise à développer un **classificateur** capable de **différencier précisément** le trafic réseau **intrusif (malveillant)** du trafic **non intrusif (bénin)**.
 
-## Project Overview
+## Vue d’ensemble du projet
 
-The objective of this project is to analyze and evaluate methods within the field of intrusion detection. Utilizing a comprehensive dataset, a predictive model was developed to classify network connections as either normal or as various types of attacks, with precise categorization for each specific attack type.
+L'objectif de ce projet est d'analyser et d'évaluer différentes méthodes de détection d'intrusions. À l'aide d'un ensemble de données complet, un modèle prédictif a été développé pour **classer les connexions réseau** comme étant soit **normales**, soit **des attaques spécifiques** appartenant à différentes catégories.
 
-> [Here is the animated presentation of the project.](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
+> [Voici la présentation animée du projet.](https://www.canva.com/design/DAGBT2SaVYM/TflYMLkLgUNVdMI1IJC9Hg/view?utm_content=DAGBT2SaVYM&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
 
-## Data Description
+---
 
-The dataset utilized in this project is derived from a network environment emulating a standard U.S. Air Force LAN, infused with a variety of simulated attacks. The data, provided by Lincoln Labs, encompasses nine weeks of raw TCP dump data processed into connection records, each uniquely labeled and detailed.     
-The dataset can be accessed [here](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html).
+## Description des données
 
-Within these records, each connection is defined by a series of TCP packets occurring between well-defined times, moving data between source and destination IP addresses under specified protocols. The connections are annotated as normal or as one of the following types of attacks:
+L'ensemble de données utilisé dans ce projet provient d'un **environnement réseau** simulant un **réseau local standard de l'US Air Force**, dans lequel divers types d'attaques ont été injectés. Les données, fournies par **Lincoln Labs**, couvrent **neuf semaines** de captures brutes de paquets TCP converties en **enregistrements de connexions réseau** soigneusement étiquetés.
 
-- **DOS (Denial-of-Service)**: These attacks target the availability of resources and include methods such as SYN floods.
-- **R2L (Remote to Local)**: These incidents involve unauthorized access attempts from remote machines, which may employ tactics like password guessing.
-- **U2R (User to Root)**: Attacks where a local user attempts to gain unauthorized superuser (root) privileges through, for example, buffer overflow attacks.
-- **Probing**: The act of surveying a network to gather information or find known vulnerabilities, such as port scanning.
+L'ensemble de données est accessible [ici](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html).
 
+Chaque connexion est définie par une **série de paquets TCP**, se produisant à des moments précis et transférant des données entre **adresses IP source et destination** sous des protocoles spécifiques. Ces connexions sont **étiquetées** comme **normales** ou classées dans l'une des catégories suivantes d’attaques :
 
+- **DOS (*Denial-of-Service*)** : Attaques visant la disponibilité des ressources, incluant des attaques comme les **SYN floods**.
+- **R2L (*Remote to Local*)** : Tentatives d'accès non autorisé à partir d'une machine distante, par exemple via des attaques **par devinette de mots de passe**.
+- **U2R (*User to Root*)** : Attaques où un utilisateur local tente d'obtenir **des privilèges superutilisateur (root)**, souvent via **des dépassements de mémoire tampon (buffer overflow)**.
+- **Probing** : Activités de **reconnaissance du réseau** pour collecter des informations ou exploiter des vulnérabilités connues (*ex: scan de ports*).
 
-## Methodology
+---
 
-### Data Management and Preprocessing
+## **Méthodologie**
 
-- **Data Version Control (DVC) with GCP Bucket:** Employed DVC integrated with a Google Cloud Platform (GCP) bucket for data management.
-- **Removal of Highly Correlated Variables:** Conducted an analysis to identify and remove variables with high correlation to mitigate the risk of overfitting.
-- **Encoding and Scaling:** Applied appropriate encoding techniques to categorical variables and scaled numerical variables to standardize the dataset.
-- **Dimensionality Reduction:** Utilized Principal Component Analysis *(PCA)*, *t*-SNE *(t-Distributed Stochastic Neighbor Embedding)* and UMAP *(Uniform Manifold Approximation and Projection)* for advanced dimensionality reduction. These techniques helped to visualize the data's structure and identify patterns or clusters within the dataset.
+### **Gestion et Prétraitement des Données**
 
-### Model Development and Evaluation
+- **Contrôle de Version des Données (DVC) avec GCP Bucket** : Intégration de DVC avec **Google Cloud Platform (GCP)** pour la gestion des données.
+- **Suppression des Variables Hautement Corrélées** : Analyse des **corrélations entre variables** afin de **réduire le surajustement**.
+- **Encodage et Mise à l’Échelle** : **Encodage des variables catégorielles** et **mise à l'échelle** des variables numériques pour standardiser l’ensemble de données.
+- **Réduction de Dimensionnalité** : Utilisation de **PCA (Analyse en Composantes Principales)**, **t-SNE (t-Distributed Stochastic Neighbor Embedding)** et **UMAP (Uniform Manifold Approximation and Projection)** pour améliorer la visualisation des structures des données et identifier les **modèles sous-jacents**.
 
-- **Baseline Model:** Implemented a Random Forest classifier as the baseline model to evaluate the dataset's classification performance.
-- **Oversampling with SMOTE:** After analyzing the initial model results, particularly the underrepresentation of certain attack classes, **SMOTE** *(Synthetic Minority Over-sampling Technique)* was employed to balance the dataset. This approach significantly improved the model's ability to detect rare attack types.
-- **Performance Metrics:** Emphasized the **F1 score** as the primary metric for evaluating model performance, striking a balance between **Precision** *(accuracy of attack labeling)* and **Recall** *(comprehensiveness in detecting actual attacks)*. 
+### **Développement et Évaluation du Modèle**
 
-## Visualization
+- **Modèle de Base** : Implémentation d'un **Random Forest** comme **baseline** pour évaluer la performance de classification.
+- **Suréchantillonnage avec SMOTE** : Utilisation de **SMOTE (*Synthetic Minority Over-sampling Technique*)** pour équilibrer la distribution des classes et améliorer la détection des attaques sous-représentées.
+- **Métriques de Performance** : L’**indice F1** a été utilisé comme **métrique principale** pour évaluer la performance du modèle, en équilibrant :
+  - **Précision** (*exactitude des étiquettes attribuées aux attaques*).
+  - **Rappel** (*capacité à détecter l’ensemble des attaques réelles*).
 
-To gain insights into the distribution and clustering of the network connections, we utilized the t-SNE (t-Distributed Stochastic Neighbor Embedding) algorithm for dimensionality reduction and visualization. The t-SNE plot below represents the network connections in a two-dimensional space, where each point corresponds to a connection record.
+---
+
+## **Visualisation**
+
+Pour comprendre **la répartition et les regroupements des connexions réseau**, nous avons utilisé **t-SNE** pour réduire la dimensionnalité et visualiser les données en **2D**.
 
 ![t-SNE Plot](figures/screenshots/tsne_2D_dark_5000.png)
 ![t-SNE Plot binary](figures/screenshots/tsne_oversampling.png)
 
-The t-SNE plot provides a visual representation of the relationships between different types of network connections. It helps us understand the patterns and similarities among the connections, which can be useful for identifying clusters and potential anomalies.
+Les **graphiques t-SNE** permettent d’observer :
+- La séparation entre **les connexions normales et les différentes attaques**.
+- Des **groupements distincts** qui révèlent des **anomalies potentielles** dans le trafic réseau.
 
-By examining the t-SNE plot, we can observe the separation between different attack types and normal connections. This visualization aids in understanding the effectiveness of our model in distinguishing between intrusive and non-intrusive network traffic.
+---
 
+## **Performance du Modèle**
 
+### **Avant SMOTE**
+Voici les **métriques de classification** du **modèle de base (Random Forest)** :
 
-## Model Performance
-
-### Before SMOTE
-Here are the classification metrics for our baseline Random Forest model:
-
-| Class  | Precision | Recall | F1-Score | Support |
-|--------|-----------|--------|----------|---------|
-| dos    | 1.00      | 1.00   | 1.00     | 78292   |
-| normal | 1.00      | 1.00   | 1.00     | 19456   |
-| probe  | 1.00      | 1.00   | 1.00     | 822     |
-| r2l    | 1.00      | 0.96   | 0.98     | 225     |
+| Classe  | Précision | Rappel | Score F1 | Support |
+|---------|-----------|--------|----------|---------|
+| dos     | 1.00      | 1.00   | 1.00     | 78292   |
+| normal  | 1.00      | 1.00   | 1.00     | 19456   |
+| probe   | 1.00      | 1.00   | 1.00     | 822     |
+| r2l     | 1.00      | 0.96   | 0.98     | 225     |
 | **u2r** | **0.75** | **0.60** | **0.67** | **10** |
-|        |           |        |          |         |
-| Accuracy |       |    | 1.00     | 98805   |
-| Macro Avg | 0.95      | 0.91   | 0.93     | 98805   |
-| Weighted Avg | 1.00   | 1.00   | 1.00     | 98805   |
+|         |           |        |          |         |
+| **Exactitude** |       |    | 1.00     | 98805   |
+| **Moyenne Macro** | 0.95 | 0.91   | 0.93     | 98805   |
+| **Moyenne Pondérée** | 1.00 | 1.00   | 1.00     | 98805   |
 
-> ***F1 Score (average weighted) 99.9752%***
+> ***Score F1 moyen pondéré : 99.9752%***
 
-### After SMOTE
-Following the application of SMOTE to address class imbalance, here are the updated metrics:
+---
 
-| Class  | Precision | Recall | F1-Score | Support |
-|--------|-----------|--------|----------|---------|
-|  dos   |    1.00   |  1.00  |   1.00   |  78292  |
-| normal |    1.00   |  1.00  |   1.00   |  19456  |
-| probe  |    1.00   |  0.99  |   1.00   |    821  |
-|  r2l   |    1.00   |  0.98  |   0.99   |    225  |
+### **Après SMOTE**
+Après l’application de **SMOTE** pour rééquilibrer les classes, les nouvelles métriques sont :
+
+| Classe  | Précision | Rappel | Score F1 | Support |
+|---------|-----------|--------|----------|---------|
+| dos     | 1.00      | 1.00   | 1.00     | 78292   |
+| normal  | 1.00      | 1.00   | 1.00     | 19456   |
+| probe   | 1.00      | 0.99   | 1.00     | 821     |
+| r2l     | 1.00      | 0.98   | 0.99     | 225     |
 | **u2r** | **0.99** | **1.00** | **1.00** | **200** |
-|        |           |        |          |         |
-| Accuracy |           |        |   1.00   |  98994  |
-| Macro Avg |   1.00   |  0.99  |   1.00   |  98994  |
-| Weighted Avg | 1.00 |  1.00  |   1.00   |  98994  |
+|         |           |        |          |         |
+| **Exactitude** |       |        | 1.00     | 98994   |
+| **Moyenne Macro** | 1.00 | 0.99   | 1.00     | 98994   |
+| **Moyenne Pondérée** | 1.00 | 1.00   | 1.00     | 98994   |
 
-> ***F1 Score (average weighted) 99.9827%***
+> ***Score F1 moyen pondéré : 99.9827%***
 
+---
 
-### Confusion Matrix (Final Model)
+### **Matrice de Confusion (Modèle Final)**
 
-<img src="figures/screenshots/confusion_final.png" alt="Confusion Matrix" width="550" height="550">
+<img src="figures/screenshots/confusion_final.png" alt="Matrice de Confusion" width="550" height="550">
